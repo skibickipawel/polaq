@@ -6,6 +6,7 @@
     "@types/cheerio": "^0.22.11",
     "@types/request": "^2.48.1",
     "cheerio": "^1.0.0-rc.2",
+    "gh-pages": "^2.0.1",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-scripts-ts": "3.1.0",
@@ -15,7 +16,8 @@
     "start": "react-scripts-ts start",
     "build": "react-scripts-ts build",
     "test": "react-scripts-ts test --env=jsdom",
-    "eject": "react-scripts-ts eject"
+    "eject": "react-scripts-ts eject",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "@types/jest": "^24.0.11",
@@ -23,5 +25,6 @@
     "@types/react": "^16.8.7",
     "@types/react-dom": "^16.8.2",
     "typescript": "^3.3.3333"
-  }
+  },
+  "homepage": "https://skibickipawel.github.io/polaq"
 }
